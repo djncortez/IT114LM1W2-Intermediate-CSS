@@ -30,6 +30,17 @@
 Start with using "from" and "to". Now use "0%" and "100%" as your key frames.
 Set more key frames between 0% and 100%. */
 .todo-1-container .box {
+  animation: moveLeftRight;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes moveLeftRight {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(300%);
+  }
 }
 
 /* Todo 3.2: Try the different timing funcitons such as linear, ease-in, ease-in-out, cubic-bezier, and steps*/
