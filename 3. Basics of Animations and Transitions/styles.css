@@ -62,8 +62,7 @@ Set more key frames between 0% and 100%. */
 /* Todo 3.3: Create a transition that will raise the button up and will make it cast a shadow when you hover over the button */
 /* bonus: apply the transition on the box shadow with different duration and timing function. This should all be in one line*/
 .todo-3-container button {
-  /* Apply transition here */
-  transition-duration: 150ms;
+  transition-duration: 250ms;
   transition-timing-function: ease;
 }
 
